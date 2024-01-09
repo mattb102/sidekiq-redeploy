@@ -32,6 +32,7 @@ module Sidekiq
 
       def run
         log "Starting sidekiq reloader... pid=#{@loader_pid}"
+        log "matt test"
 
         trap_signals
 
